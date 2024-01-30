@@ -1,0 +1,39 @@
++ git config username :
+git config –global user.name <votre_nom_d'utilisateur>
+
++ git config email :
+git config –global user.email <votre_adresse_email>
+
++ git init :
+git init <le_nom_de_votre_repo_git> (Pour initialiser un nouveau repo, utilisez la commande)
+
++ git clone :
+git clone <url_du_depot_git>
+
++ git add :
+git add <nom_du_ou_des_fichier(s)>
+git add *
+
++ git commit :
+git commit
+git commit -m <votre_message_de_commit>
+
+git commit -a (git commit les changements)
+
++ git branch :
+git branch
+git branch <branche> (Pour créer une nouvelle branche.)
+git branch -d <branche> (Pour supprimer une certaine branche.)
+
++ git checkout :
+git checkout <branche> (Pour passer d’une branche à l’autre.)
+git checkout -b <branche> (Pour créer une nouvelle branche et switcher directement à celle-ci.)
+
++ git push :
+git push <nom_du_remote> master (Pour push les changements sur master.)
+git push <remote> <branche> (Pour push les commits à votre dépôt distant sur de la branche spécifiée.)
+git push –all <remote> (Pour pousser toutes les branches vers votre repo remote.)
+
+
++ comment utiliser browsersync :
+browser-sync start --server --directory --files "*" (pour lancer le navigateur synchronisé)
